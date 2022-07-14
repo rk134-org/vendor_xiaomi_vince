@@ -9,14 +9,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware.bin \
     vendor/xiaomi/vince/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
     vendor/xiaomi/vince/proprietary/vendor/firmware/tas2557_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2557_uCDSP.bin \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libskia.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskia.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/libgf_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_algo.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
-    vendor/xiaomi/vince/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
-    vendor/xiaomi/vince/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
-    vendor/xiaomi/vince/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
+    vendor/xiaomi/vince/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/xiaomi/vince/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/xiaomi/vince/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
     vendor/xiaomi/vince/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_General_cal.acdb \
@@ -28,67 +24,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_workspaceFile.qwsp \
     vendor/xiaomi/vince/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/xiaomi/vince/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
-    vendor/xiaomi/vince/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
-    vendor/xiaomi/vince/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
     vendor/xiaomi/vince/proprietary/vendor/etc/camera/vince_imx486_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vince_imx486_ofilm_chromatix.xml \
-    vendor/xiaomi/vince/proprietary/vendor/etc/camera/vince_imx486_ofilm_chromatix_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vince_imx486_ofilm_chromatix_cn.xml \
-    vendor/xiaomi/vince/proprietary/vendor/etc/camera/vince_imx486_ofilm_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vince_imx486_ofilm_chromatix_india.xml \
     vendor/xiaomi/vince/proprietary/vendor/etc/camera/vince_ov12a10_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vince_ov12a10_sunny_chromatix.xml \
-    vendor/xiaomi/vince/proprietary/vendor/etc/camera/vince_ov12a10_sunny_chromatix_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vince_ov12a10_sunny_chromatix_cn.xml \
-    vendor/xiaomi/vince/proprietary/vendor/etc/camera/vince_ov12a10_sunny_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vince_ov12a10_sunny_chromatix_india.xml \
     vendor/xiaomi/vince/proprietary/vendor/etc/camera/vince_ov5675_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vince_ov5675_ofilm_chromatix.xml \
-    vendor/xiaomi/vince/proprietary/vendor/etc/camera/vince_ov5675_ofilm_chromatix_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vince_ov5675_ofilm_chromatix_cn.xml \
-    vendor/xiaomi/vince/proprietary/vendor/etc/camera/vince_ov5675_ofilm_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vince_ov5675_ofilm_chromatix_india.xml \
     vendor/xiaomi/vince/proprietary/vendor/etc/camera/vince_ov5675_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vince_ov5675_qtech_chromatix.xml \
-    vendor/xiaomi/vince/proprietary/vendor/etc/camera/vince_ov5675_qtech_chromatix_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vince_ov5675_qtech_chromatix_cn.xml \
-    vendor/xiaomi/vince/proprietary/vendor/etc/camera/vince_ov5675_qtech_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vince_ov5675_qtech_chromatix_india.xml \
-    vendor/xiaomi/vince/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
-    vendor/xiaomi/vince/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
-    vendor/xiaomi/vince/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
+    vendor/xiaomi/vince/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/xiaomi/vince/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/xiaomi/vince/proprietary/vendor/lib/camera.device@1.0-impl-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl-v27.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/camera.device@3.2-impl-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl-v27.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/camera.device@3.3-impl-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl-v27.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/hw/camera.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8953.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libFaceGrade.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceGrade.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libMiWatermark.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMiWatermark.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libXMFD_AgeGender.so:$(TARGET_COPY_OUT_VENDOR)/lib/libXMFD_AgeGender.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib/hw/gatekeeper.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8953.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib/hw/keystore.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8953.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/lib_lowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_lowlight.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libactuator_vince_dw9714v_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_vince_dw9714v_ofilm.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libactuator_vince_dw9763_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_vince_dw9763_sunny.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_high_dynamic_range.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_4k_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_4k_preview_dw9763.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_4k_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_4k_video_dw9763.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_4k_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_4k_preview_dw9763.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_4k_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_4k_video_dw9763.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_common.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_cpp_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_cpp_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_cpp_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_cpp_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_cpp_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_cpp_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_cpp_snapshot_hht.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_cpp_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_cpp_video_4k.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_default_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_default_preview_dw9763.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_default_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_default_video_dw9763.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_hfr_120_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_hfr_120_dw9763.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_hfr_60_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_hfr_60_dw9763.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_hfr_90_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_hfr_90_dw9763.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_postproc.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_video_4k.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_zsl_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_zsl_preview_dw9763.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cn_zsl_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cn_zsl_video_dw9763.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_common.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cpp_hfr_120.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_cpp_hfr_60.so \
@@ -107,122 +56,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_hfr_60_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_hfr_60_dw9763.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_hfr_90.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_hfr_90_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_hfr_90_dw9763.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_4k_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_4k_preview_dw9763.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_4k_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_4k_video_dw9763.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_common.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_cpp_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_cpp_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_cpp_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_cpp_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_cpp_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_cpp_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_cpp_snapshot_hht.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_cpp_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_cpp_video_4k.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_default_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_default_preview_dw9763.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_default_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_default_video_dw9763.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_hfr_120_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_hfr_120_dw9763.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_hfr_60_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_hfr_60_dw9763.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_hfr_90_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_hfr_90_dw9763.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_postproc.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_video_4k.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_zsl_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_zsl_preview_dw9763.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_india_zsl_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_india_zsl_video_dw9763.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_postproc.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_preview.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_snapshot.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_video_4k.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_zsl_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_zsl_preview_dw9763.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_zsl_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_zsl_video_dw9763.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_cpp_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_cpp_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_cpp_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_cpp_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_cpp_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_cpp_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_cpp_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_default_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_default_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_default_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_hfr_120_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_hfr_60_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_hfr_90_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_zsl_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_ofilm_zsl_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_cpp_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_cpp_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_cpp_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_cpp_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_cpp_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_cpp_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_cpp_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_default_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_default_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_default_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_hfr_120_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_hfr_60_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_hfr_90_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_zsl_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_cn_ov5675_qtech_zsl_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_cpp_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_cpp_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_cpp_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_cpp_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_cpp_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_cpp_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_cpp_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_default_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_default_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_default_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_hfr_120_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_hfr_60_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_hfr_90_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_zsl_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_ofilm_zsl_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_cpp_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_cpp_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_cpp_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_cpp_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_cpp_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_cpp_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_cpp_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_default_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_default_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_default_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_hfr_120_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_hfr_60_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_hfr_90_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_zsl_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_india_ov5675_qtech_zsl_video_3a.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_hfr_120.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_hfr_60.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_hfr_90.so \
@@ -265,94 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_ov5675_qtech_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_ov5675_qtech_snapshot.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_ov5675_qtech_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_ov5675_qtech_zsl_preview_3a.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_auto_vince_ov5675_qtech_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_auto_vince_ov5675_qtech_zsl_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_cpp_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_cpp_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_cpp_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_cpp_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_cpp_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_cpp_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_cpp_snapshot_hht.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_cpp_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_default_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_default_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_default_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_hfr_120_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_hfr_60_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_hfr_90_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_zsl_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_ofilm_zsl_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_cpp_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_cpp_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_cpp_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_cpp_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_cpp_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_cpp_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_cpp_snapshot_hht.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_cpp_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_default_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_default_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_default_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_hfr_120_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_hfr_60_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_hfr_90_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_zsl_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_cn_ov5675_qtech_zsl_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_cpp_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_cpp_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_cpp_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_cpp_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_cpp_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_cpp_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_cpp_snapshot_hht.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_cpp_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_default_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_default_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_default_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_hfr_120_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_hfr_60_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_hfr_90_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_zsl_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_ofilm_zsl_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_cpp_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_cpp_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_cpp_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_cpp_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_cpp_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_cpp_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_cpp_snapshot_hht.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_cpp_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_default_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_default_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_default_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_hfr_120_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_hfr_60_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_hfr_90_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_zsl_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_india_ov5675_qtech_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_india_ov5675_qtech_zsl_video_3a.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_ov5675_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_ov5675_ofilm_cpp_hfr_120.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_ov5675_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_ov5675_ofilm_cpp_hfr_60.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_ov5675_ofilm_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_ov5675_ofilm_cpp_hfr_90.so \
@@ -397,77 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_ov5675_qtech_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_ov5675_qtech_snapshot.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_ov5675_qtech_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_ov5675_qtech_zsl_preview_3a.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_soft_light_vince_ov5675_qtech_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_soft_light_vince_ov5675_qtech_zsl_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_common.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_cpp_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_cpp_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_cpp_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_cpp_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_cpp_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_cpp_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_cpp_snapshot_hht.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_cpp_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_default_preview_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_default_preview_dw9714v.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_default_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_default_video_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_default_video_dw9714v.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_hfr_120_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_hfr_120_dw9714v.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_hfr_60_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_hfr_60_dw9714v.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_hfr_90_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_hfr_90_dw9714v.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_postproc.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_zsl_preview_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_zsl_preview_dw9714v.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_imx486_ofilm_zsl_video_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_imx486_ofilm_zsl_video_dw9714v.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_common.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_cpp_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_cpp_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_cpp_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_cpp_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_cpp_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_cpp_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_cpp_snapshot_hht.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_cpp_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_default_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_default_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_default_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_hfr_120_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_hfr_60_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_hfr_90_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_postproc.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_zsl_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_ofilm_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_ofilm_zsl_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_common.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_cpp_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_cpp_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_cpp_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_cpp_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_cpp_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_cpp_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_cpp_snapshot_hht.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_cpp_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_default_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_default_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_default_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_hfr_120_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_hfr_60_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_hfr_90_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_postproc.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_zsl_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_cn_ov5675_qtech_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_cn_ov5675_qtech_zsl_video_3a.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_imx486_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_imx486_ofilm_common.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_imx486_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_imx486_ofilm_cpp_hfr_120.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_imx486_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_imx486_ofilm_cpp_hfr_60.so \
@@ -491,77 +171,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_imx486_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_imx486_ofilm_snapshot.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_imx486_ofilm_zsl_preview_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_imx486_ofilm_zsl_preview_dw9714v.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_imx486_ofilm_zsl_video_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_imx486_ofilm_zsl_video_dw9714v.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_common.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_cpp_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_cpp_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_cpp_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_cpp_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_cpp_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_cpp_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_cpp_snapshot_hht.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_cpp_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_default_preview_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_default_preview_dw9714v.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_default_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_default_video_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_default_video_dw9714v.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_hfr_120_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_hfr_120_dw9714v.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_hfr_60_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_hfr_60_dw9714v.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_hfr_90_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_hfr_90_dw9714v.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_postproc.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_zsl_preview_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_zsl_preview_dw9714v.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_imx486_ofilm_zsl_video_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_imx486_ofilm_zsl_video_dw9714v.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_common.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_cpp_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_cpp_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_cpp_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_cpp_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_cpp_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_cpp_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_cpp_snapshot_hht.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_cpp_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_default_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_default_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_default_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_hfr_120_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_hfr_60_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_hfr_90_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_postproc.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_zsl_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_ofilm_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_ofilm_zsl_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_common.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_cpp_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_cpp_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_cpp_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_cpp_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_cpp_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_cpp_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_cpp_snapshot_hht.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_cpp_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_default_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_default_video.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_default_video_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_hfr_120.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_hfr_120_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_hfr_60.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_hfr_60_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_hfr_90.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_hfr_90_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_liveshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_postproc.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_preview.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_snapshot.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_zsl_preview_3a.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_india_ov5675_qtech_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_india_ov5675_qtech_zsl_video_3a.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_ov5675_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_ov5675_ofilm_common.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_ov5675_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_ov5675_ofilm_cpp_hfr_120.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_ov5675_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_ov5675_ofilm_cpp_hfr_60.so \
@@ -611,12 +220,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_ov5675_qtech_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_ov5675_qtech_zsl_preview_3a.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_vince_ov5675_qtech_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_vince_ov5675_qtech_zsl_video_3a.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libft2vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libft2vendor.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libmibokeh_625.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmibokeh_625.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera2_dcrf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_dcrf.so \
@@ -635,10 +241,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera_cac3_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cac3_lib.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera_csidtg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_csidtg.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dcrf_lib.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera_dummyalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dummyalgo.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera_eebinparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eebinparse.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera_eeprom_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eeprom_util.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera_eztune_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eztune_module.so \
@@ -647,7 +251,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc2.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera_isp_abf40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abf40.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bcc40.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_be_stats44.so \
@@ -707,34 +310,26 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera_vince_ov5675_qtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_vince_ov5675_qtech.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmcamera_vince_ov5675_qtech_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_vince_ov5675_qtech_eeprom.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_hal.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_hal.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libvidhance_gyro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance_gyro.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib64/hw/consumerir.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.msm8953.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib64/hw/fingerprint.fpc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.default.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib64/hw/gf_fingerprint.goodix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gf_fingerprint.goodix.default.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib64/libqcrilFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrilFramework.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib64/libril-qc-hal-qmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-hal-qmi.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib64/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.default.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8953.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib64/hw/gf_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gf_fingerprint.default.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib64/hw/keystore.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8953.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib64/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_librilutils.so
+    vendor/xiaomi/vince/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
+
+PRODUCT_PACKAGES += \
+    libts_detected_face_hal \
+    libts_face_beautify_hal
